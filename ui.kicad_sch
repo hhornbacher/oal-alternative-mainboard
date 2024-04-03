@@ -1,0 +1,35 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 65aec449-6f4e-4766-be03-ca5b0fa838d3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "TOUCHPAD_4" (shape input) (at 143.51 105.41 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3f1d78c7-d65e-40c9-934b-32aa772f77a7)
+  )
+  (hierarchical_label "TOUCHPAD_1" (shape input) (at 143.51 93.98 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 818fa427-a704-487f-a849-262530b56c01)
+  )
+  (hierarchical_label "I2C_SCL" (shape input) (at 140.97 140.97 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9a980c10-2ec9-4fba-b463-6fbc8fdf3910)
+  )
+  (hierarchical_label "TOUCHPAD_2" (shape input) (at 143.51 97.79 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d6b7dd0c-9740-438d-bce3-bf1f0b5058f8)
+  )
+  (hierarchical_label "TOUCHPAD_3" (shape input) (at 143.51 101.6 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f7d61cfc-9d8d-4753-8d35-9366828e877b)
+  )
+  (hierarchical_label "I2C_SDA" (shape input) (at 140.97 137.16 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid feaaa599-d0f4-4e5b-a8cf-fd31d6e18397)
+  )
+)

@@ -331,6 +331,10 @@
     [
       "ed2e236e-cfd2-4567-8f0f-a7cfa7de4717",
       "MCU"
+    ],
+    [
+      "4b6dd9f9-6c0b-4eab-b9ed-a31ebda833cc",
+      "User Interface"
     ]
   ],
   "text_variables": {}

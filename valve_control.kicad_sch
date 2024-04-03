@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cfde0d90-e170-47e0-a5b6-2f8d4abc5d79)
+
+  (paper "A4")
+
+  (title_block
+    (title "openautolab - Mainboard")
+    (date "2024-04-03")
+    (rev "1.0")
+  )
+
+  (lib_symbols
+  )
+
+)

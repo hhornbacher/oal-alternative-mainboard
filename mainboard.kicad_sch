@@ -1173,6 +1173,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 33479dae-cc6a-44ae-96ae-239ba67292d1)
   )
+  (text "Replace with self-recovery fuse" (at 88.265 69.85 0)
+    (effects (font (size 1.27 1.27) (color 194 0 0 1)) (justify left bottom))
+    (uuid 377a224e-d379-41c7-8357-ad07d55c2f34)
+  )
   (text "Peak Power:\n-> Two open valve, Main and aux. pump running, Servo active\n\n15V (2 Valves, 2 Pumps):\n600 + 600 + 600 + 700 = 3500mA\n-> 52.5W\n\n5V (Servo, HX711):\n800mA + 2mA = 802mA\n-> 4W\n\n3.3V (MCU):\n500mA\n-> 1.65W\n\nTotal: 58.15W"
     (at 20.955 274.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

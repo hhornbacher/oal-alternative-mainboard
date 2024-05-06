@@ -896,7 +896,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 46.355 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fbdc61b-a5fa-4d9f-871e-315418e06ead)
-    (property "Reference" "TP5" (at 46.355 81.28 0)
+    (property "Reference" "TP7" (at 46.355 81.28 0)
       (effects (font (size 0.504 0.504)))
     )
     (property "Value" "TestPoint_Small" (at 47.625 83.82 0)
@@ -912,7 +912,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "TP5") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -946,7 +946,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 80.645 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25a6df14-4e7d-4536-96e3-62580d4f6c46)
-    (property "Reference" "TP17" (at 80.645 81.28 0)
+    (property "Reference" "TP8" (at 80.645 81.28 0)
       (effects (font (size 0.504 0.504)))
     )
     (property "Value" "TestPoint_Small" (at 81.915 83.82 0)
@@ -962,7 +962,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "TP17") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -1071,7 +1071,7 @@
   (symbol (lib_id "Device:C") (at 76.2 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 759a1fa4-9829-4fd4-b4ce-9cadebb796ea)
-    (property "Reference" "C12" (at 80.01 54.61 0)
+    (property "Reference" "C15" (at 80.01 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C22u" (at 80.01 57.15 0)
@@ -1091,7 +1091,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "C12") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1100,7 +1100,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 80.645 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 953514e4-5772-4eff-a2b3-46596b139768)
-    (property "Reference" "TP16" (at 80.645 83.82 0)
+    (property "Reference" "TP9" (at 80.645 83.82 0)
       (effects (font (size 0.504 0.504)))
     )
     (property "Value" "TestPoint_Small" (at 81.915 86.36 0)
@@ -1116,7 +1116,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "TP16") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -1150,7 +1150,7 @@
   (symbol (lib_id "Device:R") (at 158.75 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac794e6b-e1c0-4e33-a298-8df6830f6ab8)
-    (property "Reference" "R15" (at 161.29 49.53 0)
+    (property "Reference" "R25" (at 161.29 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R4k7" (at 161.29 52.07 0)
@@ -1170,7 +1170,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "R15") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1254,7 +1254,7 @@
   (symbol (lib_id "RF_Module:ESP32-S3-WROOM-1") (at 63.5 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf5c33e8-4cf1-4221-9ec7-c747d84f6d0b)
-    (property "Reference" "U6" (at 65.6941 74.93 0)
+    (property "Reference" "U5" (at 65.6941 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESP32-S3-WROOM-1" (at 65.6941 77.47 0)
@@ -1313,7 +1313,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1322,7 +1322,7 @@
   (symbol (lib_id "Device:R") (at 147.32 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c66e42b3-1d49-41be-bfea-8c57f112b150)
-    (property "Reference" "R12" (at 149.86 49.53 0)
+    (property "Reference" "R27" (at 149.86 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R4k7" (at 149.86 52.07 0)
@@ -1342,7 +1342,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "R12") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -1351,7 +1351,7 @@
   (symbol (lib_id "Device:R") (at 35.56 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df62b921-78ce-4f9c-930a-6995561838fa)
-    (property "Reference" "R13" (at 38.1 73.66 0)
+    (property "Reference" "R31" (at 38.1 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R100k" (at 38.1 76.2 0)
@@ -1371,7 +1371,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "R13") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -1405,7 +1405,7 @@
   (symbol (lib_id "Device:R") (at 158.75 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7ab3773-41f0-4188-8a98-ac52aae6ead0)
-    (property "Reference" "R38" (at 161.29 87.63 0)
+    (property "Reference" "R23" (at 161.29 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R4k7" (at 161.29 90.17 0)
@@ -1425,7 +1425,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "R38") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1434,7 +1434,7 @@
   (symbol (lib_id "Device:C") (at 88.9 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2adbae4-bf7a-41f8-83eb-979eb69d4711)
-    (property "Reference" "C13" (at 92.71 54.61 0)
+    (property "Reference" "C16" (at 92.71 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C100n" (at 92.71 57.15 0)
@@ -1454,7 +1454,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ed2e236e-cfd2-4567-8f0f-a7cfa7de4717"
-          (reference "C13") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )

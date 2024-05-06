@@ -1235,7 +1235,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 364.49 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b3b99c4-c1a9-4731-ba5d-be8dcdc303d5)
-    (property "Reference" "J2" (at 367.03 64.77 0)
+    (property "Reference" "J3" (at 367.03 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Valve1" (at 367.03 67.31 0)
@@ -1252,7 +1252,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1261,7 +1261,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 364.49 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13710f5f-db97-4b57-9f33-934bafae569f)
-    (property "Reference" "J8" (at 367.03 100.33 0)
+    (property "Reference" "J7" (at 367.03 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Valve5" (at 367.03 102.87 0)
@@ -1278,7 +1278,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J8") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -1336,7 +1336,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 36.83 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 257a3c69-04cd-43a5-beb7-d3a3f1e560ff)
-    (property "Reference" "H3" (at 36.83 21.59 90)
+    (property "Reference" "H4" (at 36.83 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MountingHole" (at 38.1 22.225 0)
@@ -1351,7 +1351,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "H3") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -1360,7 +1360,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 280.67 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4358729e-7756-412a-85d6-a3fed3e6798c)
-    (property "Reference" "J13" (at 283.21 124.46 0)
+    (property "Reference" "J11" (at 283.21 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WaterLevelSensor" (at 283.21 127 0)
@@ -1377,7 +1377,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J13") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1386,7 +1386,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 364.49 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 595874b8-f804-4814-9672-ec91b5f3c80c)
-    (property "Reference" "J10" (at 367.03 118.11 0)
+    (property "Reference" "J9" (at 367.03 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Valve7" (at 367.03 120.65 0)
@@ -1403,7 +1403,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J10") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1412,7 +1412,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 364.49 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f950ed7-fa12-4362-a0cd-d7e6e1268aae)
-    (property "Reference" "J9" (at 367.03 109.22 0)
+    (property "Reference" "J8" (at 367.03 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Valve6" (at 367.03 111.76 0)
@@ -1429,7 +1429,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J9") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -1488,7 +1488,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 70.485 165.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a112d3b-d467-4d12-8c1d-1aebe9675e9c)
-    (property "Reference" "J4" (at 70.485 156.21 0)
+    (property "Reference" "J1" (at 70.485 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "HX711" (at 70.485 158.75 0)
@@ -1507,7 +1507,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1541,7 +1541,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 364.49 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83b8eff6-80de-4c7c-a31b-d39de8f425a5)
-    (property "Reference" "J7" (at 367.03 91.44 0)
+    (property "Reference" "J6" (at 367.03 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Valve4" (at 367.03 93.98 0)
@@ -1558,7 +1558,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1592,7 +1592,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 355.6 138.43 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9148c106-7d8c-4a4f-b778-f89a90d4ce9c)
-    (property "Reference" "J12" (at 358.14 138.43 0)
+    (property "Reference" "J10" (at 358.14 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MainPump" (at 358.14 135.89 0)
@@ -1609,7 +1609,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J12") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1643,7 +1643,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 364.49 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 941a4445-2f6c-45d5-9d44-ac008f5d9ae3)
-    (property "Reference" "J6" (at 367.03 82.55 0)
+    (property "Reference" "J5" (at 367.03 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Valve3" (at 367.03 85.09 0)
@@ -1660,7 +1660,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1719,7 +1719,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0_16P") (at 66.675 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e17d248-9165-4927-a2bd-87383371202f)
-    (property "Reference" "J1" (at 66.675 69.85 0)
+    (property "Reference" "J16" (at 66.675 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0_16P" (at 56.515 72.39 0)
@@ -1754,7 +1754,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J1") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -1813,7 +1813,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 364.49 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2ddc9c0-387d-45c5-8ad4-ececf353c879)
-    (property "Reference" "J5" (at 367.03 73.66 0)
+    (property "Reference" "J4" (at 367.03 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Valve2" (at 367.03 76.2 0)
@@ -1830,7 +1830,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1864,7 +1864,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 355.6 156.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1595b5b-fbd3-4f7d-b835-757638b4570a)
-    (property "Reference" "J11" (at 358.14 156.845 0)
+    (property "Reference" "J12" (at 358.14 156.845 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AuxPump" (at 358.14 159.385 0)
@@ -1881,7 +1881,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J11") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1890,7 +1890,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 42.545 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e276f6ca-b490-4c5e-b841-f9053e15360f)
-    (property "Reference" "H4" (at 42.545 21.59 90)
+    (property "Reference" "H3" (at 42.545 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MountingHole" (at 43.815 22.225 0)
@@ -1905,7 +1905,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "H4") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -2017,7 +2017,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 151.13 136.525 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed701ab8-5f53-4d1e-b114-c5351f18e609)
-    (property "Reference" "J14" (at 151.13 128.27 0)
+    (property "Reference" "J13" (at 151.13 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OneWireTemp" (at 151.13 130.81 0)
@@ -2035,7 +2035,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J14") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -2044,7 +2044,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 129.54 136.525 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2669c04-0e48-4005-a570-8aff18ab18e1)
-    (property "Reference" "J15" (at 129.54 128.27 0)
+    (property "Reference" "J14" (at 129.54 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OneWireTemp" (at 129.54 130.81 0)
@@ -2062,7 +2062,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J15") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -2071,7 +2071,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 248.285 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6b282be-c130-4a73-8b47-97ca00deb0b6)
-    (property "Reference" "J17" (at 251.46 125.73 0)
+    (property "Reference" "J15" (at 251.46 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FlowSensor" (at 251.46 128.27 0)
@@ -2089,7 +2089,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J17") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -2098,7 +2098,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 276.225 198.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb3c5062-9042-4db6-a6cf-921d68f28f70)
-    (property "Reference" "J3" (at 278.765 197.485 0)
+    (property "Reference" "J2" (at 278.765 197.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Servo" (at 278.765 200.025 0)
@@ -2116,7 +2116,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )

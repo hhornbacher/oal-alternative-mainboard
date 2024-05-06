@@ -737,7 +737,7 @@
   (symbol (lib_id "Device:R") (at 147.32 104.775 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1310e2a1-cf82-4628-9e6c-c035b019f502)
-    (property "Reference" "R33" (at 149.86 103.505 0)
+    (property "Reference" "R32" (at 149.86 103.505 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 149.86 106.045 0)
@@ -757,7 +757,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "R33") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -821,7 +821,7 @@
   (symbol (lib_id "Device:R") (at 46.99 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ba095b8-d58b-4268-9913-7f148841c7dd)
-    (property "Reference" "R34" (at 44.45 105.41 0)
+    (property "Reference" "R24" (at 44.45 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 44.45 107.95 0)
@@ -841,7 +841,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "R34") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -900,7 +900,7 @@
   (symbol (lib_id "Device:R") (at 139.7 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95239aa2-f753-465d-889f-35ef8c91b58b)
-    (property "Reference" "R32" (at 139.7 87.63 90)
+    (property "Reference" "R33" (at 139.7 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 139.7 90.17 90)
@@ -920,7 +920,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "R32") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -954,7 +954,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x14_MountingPin") (at 67.945 92.075 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdce06af-bb0c-4d4b-95d2-40ab2d6a16bb)
-    (property "Reference" "J16" (at 71.12 89.1794 0)
+    (property "Reference" "J17" (at 71.12 89.1794 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x14_MountingPin" (at 71.12 91.7194 0)
@@ -984,7 +984,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "J16") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )

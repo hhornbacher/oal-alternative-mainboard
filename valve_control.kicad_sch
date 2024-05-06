@@ -769,7 +769,7 @@
   (symbol (lib_id "Device:D") (at 123.19 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05d1c6b1-1b18-4e13-a9e1-c5ff9e578046)
-    (property "Reference" "D5" (at 125.73 31.75 90)
+    (property "Reference" "D2" (at 125.73 31.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "S1A-13-F" (at 125.73 34.29 90)
@@ -795,7 +795,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -804,7 +804,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 186.055 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1340b7e4-4d8f-41a2-8195-db2369fff82c)
-    (property "Reference" "Q6" (at 191.77 46.99 0)
+    (property "Reference" "Q3" (at 191.77 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRLML2502" (at 191.77 49.53 0)
@@ -825,7 +825,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "Q6") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -859,7 +859,7 @@
   (symbol (lib_id "Device:R") (at 168.275 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15323a9d-b4f2-4344-b366-dd5e533086ad)
-    (property "Reference" "R19" (at 168.275 41.91 90)
+    (property "Reference" "R8" (at 168.275 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 168.275 44.45 90)
@@ -879,7 +879,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R19") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -888,7 +888,7 @@
   (symbol (lib_id "Device:R") (at 110.49 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19dd23cd-1969-4f27-80df-6f7ba4512927)
-    (property "Reference" "R26" (at 113.03 129.54 0)
+    (property "Reference" "R15" (at 113.03 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 113.03 132.08 0)
@@ -908,7 +908,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R26") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -967,7 +967,7 @@
   (symbol (lib_id "Device:R") (at 40.005 120.015 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2418074a-0c98-4389-bc8e-0ae82f9ca8d8)
-    (property "Reference" "R23" (at 40.005 113.665 90)
+    (property "Reference" "R12" (at 40.005 113.665 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 40.005 116.205 90)
@@ -987,7 +987,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R23") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -996,7 +996,7 @@
   (symbol (lib_id "Device:R") (at 175.895 59.055 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26319638-02a8-4838-8ea9-490485245590)
-    (property "Reference" "R20" (at 178.435 57.785 0)
+    (property "Reference" "R9" (at 178.435 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 178.435 60.325 0)
@@ -1016,7 +1016,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R20") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1025,7 +1025,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 120.65 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 275597e3-de1f-48e0-b961-6463e6b215e4)
-    (property "Reference" "Q5" (at 126.365 46.99 0)
+    (property "Reference" "Q2" (at 126.365 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRLML2502" (at 126.365 49.53 0)
@@ -1046,7 +1046,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "Q5") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -1055,7 +1055,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 186.055 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d5c3ea0-42e5-499b-b6b3-de5e75e45d70)
-    (property "Reference" "Q10" (at 191.77 118.745 0)
+    (property "Reference" "Q7" (at 191.77 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRLML2502" (at 191.77 121.285 0)
@@ -1076,7 +1076,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "Q10") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -1085,7 +1085,7 @@
   (symbol (lib_id "Device:D") (at 252.73 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f0b41c0-3a0c-4e80-bf55-8c6fbe876f37)
-    (property "Reference" "D7" (at 255.27 31.75 90)
+    (property "Reference" "D4" (at 255.27 31.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "S1A-13-F" (at 255.27 34.29 90)
@@ -1111,7 +1111,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "D7") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1245,7 +1245,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 120.65 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fec4545-3263-4ef1-b771-11e4da99e5af)
-    (property "Reference" "Q9" (at 126.365 118.745 0)
+    (property "Reference" "Q6" (at 126.365 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRLML2502" (at 126.365 121.285 0)
@@ -1266,7 +1266,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "Q9") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -1275,7 +1275,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 57.785 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41b2587b-0eb1-4144-a43b-3abbe5b935e9)
-    (property "Reference" "Q4" (at 63.5 46.99 0)
+    (property "Reference" "Q1" (at 63.5 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRLML2502" (at 63.5 49.53 0)
@@ -1296,7 +1296,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "Q4") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -1355,7 +1355,7 @@
   (symbol (lib_id "Device:D") (at 188.595 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6754d221-4572-48f0-b290-455b65d74ab8)
-    (property "Reference" "D6" (at 191.135 31.75 90)
+    (property "Reference" "D3" (at 191.135 31.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "S1A-13-F" (at 191.135 34.29 90)
@@ -1381,7 +1381,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "D6") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1390,7 +1390,7 @@
   (symbol (lib_id "Device:R") (at 232.41 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6eb2be79-50b0-4ac8-b94d-f920aa6d1eae)
-    (property "Reference" "R21" (at 232.41 41.91 90)
+    (property "Reference" "R10" (at 232.41 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 232.41 44.45 90)
@@ -1410,7 +1410,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R21") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1469,7 +1469,7 @@
   (symbol (lib_id "Device:R") (at 168.275 120.015 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85fe13b6-cb46-437e-a446-29c02bc398c3)
-    (property "Reference" "R27" (at 168.275 113.665 90)
+    (property "Reference" "R16" (at 168.275 113.665 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 168.275 116.205 90)
@@ -1489,7 +1489,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R27") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1498,7 +1498,7 @@
   (symbol (lib_id "Device:R") (at 175.895 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 866c0513-d2a3-4be7-84a8-4ffa5ea500d4)
-    (property "Reference" "R28" (at 178.435 129.54 0)
+    (property "Reference" "R17" (at 178.435 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 178.435 132.08 0)
@@ -1518,7 +1518,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R28") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1527,7 +1527,7 @@
   (symbol (lib_id "Device:R") (at 40.005 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8867362e-52d9-4967-be67-6f50d40da7db)
-    (property "Reference" "R17" (at 40.005 41.91 90)
+    (property "Reference" "R18" (at 40.005 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 40.005 44.45 90)
@@ -1547,7 +1547,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1556,7 +1556,7 @@
   (symbol (lib_id "Device:D") (at 123.19 104.775 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9655b2af-c751-4156-a693-64e9e146a5d8)
-    (property "Reference" "D9" (at 125.73 103.505 90)
+    (property "Reference" "D6" (at 125.73 103.505 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "S1A-13-F" (at 125.73 106.045 90)
@@ -1582,7 +1582,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "D9") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1591,7 +1591,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 250.19 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c82885f-16de-4b5d-8e20-41c2b3ea991a)
-    (property "Reference" "Q7" (at 255.905 46.99 0)
+    (property "Reference" "Q4" (at 255.905 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRLML2502" (at 255.905 49.53 0)
@@ -1612,7 +1612,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "Q7") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -1671,7 +1671,7 @@
   (symbol (lib_id "Device:D") (at 188.595 104.775 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6138651-7c79-4c6d-a4cb-dbedd8b1d04a)
-    (property "Reference" "D10" (at 191.135 103.505 90)
+    (property "Reference" "D7" (at 191.135 103.505 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "S1A-13-F" (at 191.135 106.045 90)
@@ -1697,7 +1697,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "D10") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -1756,7 +1756,7 @@
   (symbol (lib_id "Device:D") (at 60.325 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b48bc3e5-e98d-480a-9a95-00267efa7573)
-    (property "Reference" "D4" (at 62.865 31.75 90)
+    (property "Reference" "D1" (at 62.865 31.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "S1A-13-F" (at 62.865 34.29 90)
@@ -1782,7 +1782,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "D4") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1816,7 +1816,7 @@
   (symbol (lib_id "Device:R") (at 102.87 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba8e70ee-2e5a-4870-b466-ad7d22413623)
-    (property "Reference" "R16" (at 102.87 41.91 90)
+    (property "Reference" "R6" (at 102.87 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 102.87 44.45 90)
@@ -1836,7 +1836,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R16") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1870,7 +1870,7 @@
   (symbol (lib_id "Device:D") (at 60.325 104.775 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdb5aa72-b251-4b08-9747-03aae94c8a01)
-    (property "Reference" "D8" (at 62.865 103.505 90)
+    (property "Reference" "D5" (at 62.865 103.505 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "S1A-13-F" (at 62.865 106.045 90)
@@ -1896,7 +1896,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "D8") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1955,7 +1955,7 @@
   (symbol (lib_id "Device:R") (at 240.03 59.055 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4c19bff-b7b8-4b68-828a-e94e745fe595)
-    (property "Reference" "R22" (at 242.57 57.785 0)
+    (property "Reference" "R11" (at 242.57 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 242.57 60.325 0)
@@ -1975,7 +1975,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R22") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1984,7 +1984,7 @@
   (symbol (lib_id "Device:R") (at 47.625 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4637203-08f6-4f1d-a558-3a172ff6bd79)
-    (property "Reference" "R24" (at 50.165 129.54 0)
+    (property "Reference" "R13" (at 50.165 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 50.165 132.08 0)
@@ -2004,7 +2004,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R24") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2013,7 +2013,7 @@
   (symbol (lib_id "Device:R") (at 47.625 59.055 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2e69870-567c-44e0-8661-10aba0ab29f5)
-    (property "Reference" "R11" (at 50.165 57.785 0)
+    (property "Reference" "R5" (at 50.165 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 50.165 60.325 0)
@@ -2033,7 +2033,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R11") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2067,7 +2067,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 57.785 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2ac50c8-6cb1-48df-83ea-e117d9506564)
-    (property "Reference" "Q8" (at 63.5 118.745 0)
+    (property "Reference" "Q5" (at 63.5 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRLML2502" (at 63.5 121.285 0)
@@ -2088,7 +2088,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "Q8") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -2097,7 +2097,7 @@
   (symbol (lib_id "Device:R") (at 102.87 120.015 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f59e53de-a7df-4537-b3db-27f4eb7d7862)
-    (property "Reference" "R25" (at 102.87 113.665 90)
+    (property "Reference" "R14" (at 102.87 113.665 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 102.87 116.205 90)
@@ -2117,7 +2117,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R25") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2126,7 +2126,7 @@
   (symbol (lib_id "Device:R") (at 110.49 59.055 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fece4338-0e61-48b5-b4ce-6696d33ed0fe)
-    (property "Reference" "R18" (at 113.03 57.785 0)
+    (property "Reference" "R7" (at 113.03 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 113.03 60.325 0)
@@ -2146,7 +2146,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "R18") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )

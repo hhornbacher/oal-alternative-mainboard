@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -60,9 +60,7 @@
           "width": 0.22
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|190205000|66990000|f26a1096-e6b2-4f5d-bbf2-622b6fcc4ebc|21d0b76d-6dc2-4304-80c5-714befc4873f"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -181,6 +179,7 @@
         0.15,
         0.18,
         0.2,
+        0.3,
         0.4,
         0.6,
         1.0,
@@ -572,7 +571,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/*/USB_D*"
+        "pattern": "/*/USB_*D*"
       },
       {
         "netclass": "GND",

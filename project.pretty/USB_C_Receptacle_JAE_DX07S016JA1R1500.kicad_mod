@@ -63,7 +63,7 @@
   (pad "S1" thru_hole oval (at -4.32 1.15) (size 1.3 2.6) (drill oval 0.6 1.9) (layers "*.Cu" "*.Mask") (tstamp da983741-fad0-4de2-b833-a46faf9a2ff4))
   (pad "S1" thru_hole oval (at 4.32 -2.675) (size 1.3 2.3) (drill oval 0.6 1.6) (layers "*.Cu" "*.Mask") (tstamp 96e0337a-6126-4068-a46f-af44032bbc73))
   (pad "S1" thru_hole oval (at 4.32 1.15) (size 1.3 2.6) (drill oval 0.6 1.9) (layers "*.Cu" "*.Mask") (tstamp 4ab489a4-51fe-4d65-82eb-b3732aedf23f))
-  (model "/home/harry/NFS/Development/hardware/kicad/3d/K3D-DX07S016JA1-V1_JAE_Proprietary.STEP"
+  (model "${KIPRJMOD}/project.3dshapes/K3D-DX07S016JA1-V1_JAE_Proprietary.STEP"
     (offset (xyz 0 1.1 1.605))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

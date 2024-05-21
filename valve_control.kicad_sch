@@ -262,11 +262,11 @@
         )
       )
     )
-    (symbol "power:+15V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+15V" (at 0 3.556 0)
+      (property "Value" "+12V" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -278,10 +278,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+15V\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+15V_0_1"
+      (symbol "+12V_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -307,9 +307,9 @@
           (fill (type none))
         )
       )
-      (symbol "+15V_1_1"
+      (symbol "+12V_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+15V" (effects (font (size 1.27 1.27))))
+          (name "+12V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -831,31 +831,6 @@
     )
   )
 
-  (symbol (lib_id "power:+15V") (at 123.19 97.155 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1442a232-9bf3-41a3-8a06-80afcf2056ae)
-    (property "Reference" "#PWR073" (at 123.19 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+15V" (at 123.19 92.075 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 123.19 97.155 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 123.19 97.155 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9b05b183-2193-4016-ae58-0fa670b66c12))
-    (instances
-      (project "mainboard"
-        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "#PWR073") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 168.275 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15323a9d-b4f2-4344-b366-dd5e533086ad)
@@ -885,6 +860,31 @@
     )
   )
 
+  (symbol (lib_id "power:+12V") (at 188.595 97.155 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 16b5aee3-d750-4eb4-917d-e6f6cfb43d1b)
+    (property "Reference" "#PWR035" (at 188.595 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 188.595 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 188.595 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 188.595 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 60c4e7f7-2a6c-4af7-bcd7-fa2329127770))
+    (instances
+      (project "mainboard"
+        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
+          (reference "#PWR035") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 110.49 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19dd23cd-1969-4f27-80df-6f7ba4512927)
@@ -909,31 +909,6 @@
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
           (reference "R15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+15V") (at 188.595 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1e657dd8-68b5-439b-ba20-49c3bf466649)
-    (property "Reference" "#PWR062" (at 188.595 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+15V" (at 188.595 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 188.595 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 188.595 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c2ae1df0-9974-47c0-b922-fdcf4cf29c33))
-    (instances
-      (project "mainboard"
-        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -1117,31 +1092,6 @@
     )
   )
 
-  (symbol (lib_id "power:+15V") (at 188.595 97.155 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 30d57d54-5eb3-4b06-b104-862514fe35ec)
-    (property "Reference" "#PWR076" (at 188.595 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+15V" (at 188.595 92.075 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 188.595 97.155 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 188.595 97.155 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 08b172cb-cffa-4564-a664-925504892bf3))
-    (instances
-      (project "mainboard"
-        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "#PWR076") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 240.03 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35348503-e777-4f0c-a94f-7e44553961d7)
@@ -1242,6 +1192,31 @@
     )
   )
 
+  (symbol (lib_id "power:+12V") (at 252.73 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3d8cfae5-d146-4293-9a4f-100a55f9e8e1)
+    (property "Reference" "#PWR032" (at 252.73 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 252.73 20.955 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 252.73 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 252.73 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 274e9027-c2bf-4672-86af-fbcacf70826d))
+    (instances
+      (project "mainboard"
+        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
+          (reference "#PWR032") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 120.65 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fec4545-3263-4ef1-b771-11e4da99e5af)
@@ -1302,13 +1277,13 @@
     )
   )
 
-  (symbol (lib_id "power:+15V") (at 60.325 25.4 0) (unit 1)
+  (symbol (lib_id "power:+12V") (at 60.325 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4b767b49-ca14-438c-b190-c6b74f53bb0a)
-    (property "Reference" "#PWR064" (at 60.325 29.21 0)
+    (uuid 41b6f9e9-374b-49b9-9808-8de8228fd567)
+    (property "Reference" "#PWR023" (at 60.325 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+15V" (at 60.325 20.32 0)
+    (property "Value" "+12V" (at 60.325 20.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 60.325 25.4 0)
@@ -1317,23 +1292,23 @@
     (property "Datasheet" "" (at 60.325 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6fbac442-e399-46aa-8c86-39faf4e988f1))
+    (pin "1" (uuid 2a6a5fee-8087-4b6f-a517-8290fabf329b))
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+15V") (at 123.19 25.4 0) (unit 1)
+  (symbol (lib_id "power:+12V") (at 123.19 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 64300078-d0dd-4305-b01a-c83630ebabd3)
-    (property "Reference" "#PWR023" (at 123.19 29.21 0)
+    (uuid 5449a237-9645-4aab-ba59-e856992bc0f6)
+    (property "Reference" "#PWR030" (at 123.19 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+15V" (at 123.19 20.32 0)
+    (property "Value" "+12V" (at 123.19 20.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 123.19 25.4 0)
@@ -1342,11 +1317,11 @@
     (property "Datasheet" "" (at 123.19 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a640f458-6914-4459-8baa-64a8a4ca0c81))
+    (pin "1" (uuid f081e6a1-469a-4c4a-a7d1-1d0de27defa8))
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1548,6 +1523,31 @@
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
           (reference "R18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 60.325 97.155 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8b33af51-aba7-43d4-ad6f-cadca3fbb161)
+    (property "Reference" "#PWR033" (at 60.325 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 60.325 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 60.325 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 60.325 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7dccbefa-55e3-42e8-b9d0-50becf931f12))
+    (instances
+      (project "mainboard"
+        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1788,31 +1788,6 @@
     )
   )
 
-  (symbol (lib_id "power:+15V") (at 60.325 97.155 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b4afb6e0-eb43-424f-8eb3-01b54fb864e1)
-    (property "Reference" "#PWR070" (at 60.325 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+15V" (at 60.325 92.075 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 60.325 97.155 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 60.325 97.155 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8701bf2e-4863-478e-b724-3f931e718b30))
-    (instances
-      (project "mainboard"
-        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "#PWR070") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 102.87 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba8e70ee-2e5a-4870-b466-ad7d22413623)
@@ -1927,31 +1902,6 @@
     )
   )
 
-  (symbol (lib_id "power:+15V") (at 252.73 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c3cfd1c9-a0d9-42cf-803d-d210bb65bf15)
-    (property "Reference" "#PWR066" (at 252.73 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+15V" (at 252.73 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 252.73 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 252.73 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8cc8d00a-26be-4319-843b-97a1cb401588))
-    (instances
-      (project "mainboard"
-        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
-          (reference "#PWR066") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 240.03 59.055 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4c19bff-b7b8-4b68-828a-e94e745fe595)
@@ -2010,6 +1960,31 @@
     )
   )
 
+  (symbol (lib_id "power:+12V") (at 188.595 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d8b433bd-bba8-42f5-ad29-b58ae137ef8b)
+    (property "Reference" "#PWR031" (at 188.595 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 188.595 20.955 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 188.595 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 188.595 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2975474f-6a02-4d16-9dd8-7a8800e6a8d5))
+    (instances
+      (project "mainboard"
+        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 47.625 59.055 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2e69870-567c-44e0-8661-10aba0ab29f5)
@@ -2034,6 +2009,31 @@
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
           (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 123.19 97.155 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid eaacea19-a8ac-4597-896a-00259b8bb587)
+    (property "Reference" "#PWR034" (at 123.19 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 123.19 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 123.19 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 123.19 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2a729e2f-8da0-4983-b9d4-87f7fdf5ef64))
+    (instances
+      (project "mainboard"
+        (path "/613f8c39-c37c-4981-8911-5138d36a7959/e9806059-9dec-41fc-a77f-d545160fc79f"
+          (reference "#PWR034") (unit 1)
         )
       )
     )

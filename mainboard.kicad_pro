@@ -103,7 +103,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.127
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -621,11 +621,11 @@
       },
       {
         "netclass": "Power5V",
-        "pattern": "+5V"
+        "pattern": "+5V*"
       },
       {
         "netclass": "Power15V",
-        "pattern": "+15V"
+        "pattern": "+12V"
       },
       {
         "netclass": "USB",
@@ -646,6 +646,14 @@
       {
         "netclass": "Power15V",
         "pattern": "/Power/VBUS"
+      },
+      {
+        "netclass": "Power15V",
+        "pattern": "/Power/DC_IN"
+      },
+      {
+        "netclass": "Power5V",
+        "pattern": "/Power/MCU_LDO_PWR"
       }
     ]
   },

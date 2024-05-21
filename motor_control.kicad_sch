@@ -1064,7 +1064,7 @@
   (symbol (lib_id "Device:R") (at 190.5 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62bf6bcc-ae3e-471d-929f-ba73d755f48b)
-    (property "Reference" "R3" (at 190.5 92.71 90)
+    (property "Reference" "R2" (at 190.5 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 190.5 95.25 90)
@@ -1084,7 +1084,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ecb72cc6-9992-49a0-afcf-3c2905614ae7"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1093,7 +1093,7 @@
   (symbol (lib_id "Driver_Motor:DRV8870DDA") (at 115.57 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75845c18-5090-43c1-9727-a927c8700b41)
-    (property "Reference" "U2" (at 117.7641 88.9 0)
+    (property "Reference" "U1" (at 117.7641 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DRV8870DDAR" (at 117.7641 91.44 0)
@@ -1120,7 +1120,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ecb72cc6-9992-49a0-afcf-3c2905614ae7"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1154,7 +1154,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 102.87 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bc28136-0d73-43cc-9547-d27f2f862dd2)
-    (property "Reference" "C5" (at 106.68 74.041 0)
+    (property "Reference" "C2" (at 106.68 74.041 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C100u_20V" (at 106.68 76.581 0)
@@ -1174,7 +1174,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ecb72cc6-9992-49a0-afcf-3c2905614ae7"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1183,7 +1183,7 @@
   (symbol (lib_id "Device:R") (at 133.35 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9348c67-1fbf-4154-9f25-960a638a4d1d)
-    (property "Reference" "R2" (at 135.89 109.22 0)
+    (property "Reference" "R1" (at 135.89 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R200m_1%_0.5W" (at 135.89 111.76 0)
@@ -1203,7 +1203,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ecb72cc6-9992-49a0-afcf-3c2905614ae7"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1322,7 +1322,7 @@
   (symbol (lib_id "Device:C") (at 88.9 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc555509-3f00-4917-9a27-ee29c8a4f3e5)
-    (property "Reference" "C2" (at 85.09 74.93 0)
+    (property "Reference" "C1" (at 85.09 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C100n_20V" (at 85.09 77.47 0)
@@ -1342,7 +1342,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ecb72cc6-9992-49a0-afcf-3c2905614ae7"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1376,7 +1376,7 @@
   (symbol (lib_id "Device:R") (at 210.185 108.585 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e431e73b-10e1-4a74-927c-2a4898894ed8)
-    (property "Reference" "R19" (at 212.725 107.315 0)
+    (property "Reference" "R17" (at 212.725 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R100k" (at 212.725 109.855 0)
@@ -1396,7 +1396,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/ecb72cc6-9992-49a0-afcf-3c2905614ae7"
-          (reference "R19") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )

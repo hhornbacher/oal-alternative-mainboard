@@ -861,7 +861,7 @@
   (symbol (lib_id "Device:R") (at 213.995 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1310e2a1-cf82-4628-9e6c-c035b019f502)
-    (property "Reference" "R32" (at 216.535 100.33 0)
+    (property "Reference" "R27" (at 216.535 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 216.535 102.87 0)
@@ -881,7 +881,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "R32") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -890,7 +890,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 224.155 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2130e8cf-524e-4e1c-89a5-cb4ce54cec70)
-    (property "Reference" "Q11" (at 229.87 89.535 0)
+    (property "Reference" "Q9" (at 229.87 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRLML2502" (at 229.87 92.075 0)
@@ -911,7 +911,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "Q11") (unit 1)
+          (reference "Q9") (unit 1)
         )
       )
     )
@@ -970,7 +970,7 @@
   (symbol (lib_id "Device:R") (at 46.99 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ba095b8-d58b-4268-9913-7f148841c7dd)
-    (property "Reference" "R24" (at 44.45 105.41 0)
+    (property "Reference" "R19" (at 44.45 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R100k" (at 44.45 107.95 0)
@@ -990,7 +990,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "R24") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1049,7 +1049,7 @@
   (symbol (lib_id "Device:R") (at 206.375 90.805 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95239aa2-f753-465d-889f-35ef8c91b58b)
-    (property "Reference" "R33" (at 206.375 84.455 90)
+    (property "Reference" "R29" (at 206.375 84.455 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R120" (at 206.375 86.995 90)
@@ -1069,7 +1069,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "R33") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -1128,7 +1128,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x14_MountingPin") (at 67.945 92.075 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdce06af-bb0c-4d4b-95d2-40ab2d6a16bb)
-    (property "Reference" "J17" (at 71.12 89.1794 0)
+    (property "Reference" "J18" (at 71.12 89.1794 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x14_MountingPin" (at 71.12 91.7194 0)
@@ -1158,7 +1158,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "J17") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -1167,7 +1167,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x14_MountingPin") (at 133.35 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid df911510-a48f-4fa7-88dc-e35b9efe85b7)
-    (property "Reference" "J18" (at 136.525 91.7956 0)
+    (property "Reference" "J19" (at 136.525 91.7956 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x14_MountingPin" (at 136.525 89.2556 0)
@@ -1197,7 +1197,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959/e16aa466-f341-4735-929a-c85f813defce"
-          (reference "J18") (unit 1)
+          (reference "J19") (unit 1)
         )
       )
     )

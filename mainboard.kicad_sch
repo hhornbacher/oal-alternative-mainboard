@@ -1863,7 +1863,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0_16P") (at 66.675 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e17d248-9165-4927-a2bd-87383371202f)
-    (property "Reference" "J16" (at 66.675 69.85 0)
+    (property "Reference" "J17" (at 66.675 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0_16P" (at 56.515 72.39 0)
@@ -1898,7 +1898,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J16") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -1907,7 +1907,7 @@
   (symbol (lib_id "Device:R") (at 88.265 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3dbb880-168c-4d34-9010-c8edef3ba1f1)
-    (property "Reference" "R22" (at 90.805 38.1 0)
+    (property "Reference" "R24" (at 90.805 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R100k" (at 90.805 40.64 0)
@@ -1927,7 +1927,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "R22") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -2213,7 +2213,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 71.12 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed9c5c3d-e20e-4c65-b677-24a81462c70b)
-    (property "Reference" "J20" (at 71.12 41.91 0)
+    (property "Reference" "J16" (at 71.12 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DC 12V IN" (at 71.12 44.45 0)
@@ -2234,7 +2234,7 @@
     (instances
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "J20") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )

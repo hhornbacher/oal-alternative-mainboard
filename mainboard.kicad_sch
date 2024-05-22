@@ -7,7 +7,7 @@
   (title_block
     (title "openautolab - Mainboard")
     (date "2024-04-03")
-    (rev "1.0")
+    (rev "2.0")
   )
 
   (lib_symbols
@@ -1377,6 +1377,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 273.05 118.11 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 134b90ee-ae09-4494-8a09-eb320f420724)
+    (property "Reference" "#PWR011" (at 273.05 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 273.05 113.03 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 273.05 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 273.05 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fafac22b-1fb1-41fe-ab30-1199cdabfa44))
+    (instances
+      (project "mainboard"
+        (path "/613f8c39-c37c-4981-8911-5138d36a7959"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 364.49 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13710f5f-db97-4b57-9f33-934bafae569f)
@@ -1471,31 +1496,6 @@
       (project "mainboard"
         (path "/613f8c39-c37c-4981-8911-5138d36a7959"
           (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+12V") (at 273.05 118.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 342905a8-9045-46ee-b4f8-d71c4af115b0)
-    (property "Reference" "#PWR043" (at 273.05 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 273.05 113.665 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 273.05 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 273.05 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 668df6fa-1e8d-456b-bead-8181b0cf372a))
-    (instances
-      (project "mainboard"
-        (path "/613f8c39-c37c-4981-8911-5138d36a7959"
-          (reference "#PWR043") (unit 1)
         )
       )
     )

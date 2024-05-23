@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "openautolab - Mainboard")
+    (title "openautolab - Alternative Mainboard")
     (date "2024-04-03")
-    (rev "2.0")
+    (rev "1")
   )
 
   (lib_symbols
@@ -1149,6 +1149,9 @@
     (property "Datasheet" "~" (at 63.5 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Mouser Part Number" "653-XF2M-1415-1A" (at 63.5 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 3a439b68-94b0-47bc-87f5-653f3c365566))
     (pin "5" (uuid 5e001352-9f37-4214-a160-c3dfe6df6220))
     (pin "12" (uuid 5f53fb82-6042-49c7-8298-7982785f5ad4))
@@ -1186,6 +1189,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.905 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser Part Number" "653-XF2M-1415-1A" (at 128.905 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 57461f67-9cf3-40d0-b07d-15414c96eb7e))

@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "openautolab - Mainboard")
+    (title "openautolab - Alternative Mainboard")
     (date "2024-04-03")
-    (rev "2.0")
+    (rev "1")
   )
 
   (lib_symbols

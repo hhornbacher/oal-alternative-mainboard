@@ -1,6 +1,64 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "Back",
+        "ww": 1.0,
+        "wx": 6.451182842254639,
+        "wy": 3.412195920944214,
+        "wz": -5.0377678871154785,
+        "xw": 0.0,
+        "xx": -1.0,
+        "xy": 0.0,
+        "xz": -5.242823681328446e-05,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 0.0,
+        "zw": 0.0,
+        "zx": 5.242823681328446e-05,
+        "zy": 0.0,
+        "zz": -1.0
+      },
+      {
+        "name": "Front",
+        "ww": 1.0,
+        "wx": -6.451182842254639,
+        "wy": 3.412195920944214,
+        "wz": -5.038332462310791,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 3.5111104807583615e-05,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 0.0,
+        "zw": 0.0,
+        "zx": -3.5111104807583615e-05,
+        "zy": 0.0,
+        "zz": 1.0
+      },
+      {
+        "name": "Side",
+        "ww": 1.0,
+        "wx": 6.4511823654174805,
+        "wy": -1.9731589555740356,
+        "wz": -3.7343368530273438,
+        "xw": 0.0,
+        "xx": -0.9999999403953552,
+        "xy": 4.0296312363352627e-05,
+        "xz": 3.381259011803195e-05,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": -0.6427872776985168,
+        "yz": 0.7660447359085083,
+        "zw": 0.0,
+        "zx": 5.2603078074753284e-05,
+        "zy": 0.7660447359085083,
+        "zz": 0.6427872776985168
+      }
+    ],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.049999999999999996,
@@ -34,9 +92,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.9,
-          "width": 3.9
+          "drill": 2.2,
+          "height": 2.2,
+          "width": 2.2
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -45,7 +103,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -61,7 +119,11 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|190205000|66990000|f26a1096-e6b2-4f5d-bbf2-622b6fcc4ebc|21d0b76d-6dc2-4304-80c5-714befc4873f"
+        "copper_edge_clearance|189451000|79680000|2184c7e4-aa66-493e-8a86-e9a39a97a820|661d655e-81b7-445c-98fc-687af2931ae3",
+        "lib_footprint_mismatch|149583500|80772000|2bcb7aa5-8515-4e21-834f-fafb0d857c52|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|149583500|84328000|f3202826-0ec6-43fb-8c3a-db0f0a541e83|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|163702999|69613000|4e6b1094-5c94-4e51-9332-873a12e12f78|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|188450000|60000000|bd3a36cd-3f3a-4b79-a033-8f77881e10e4|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -181,6 +243,7 @@
         0.15,
         0.18,
         0.2,
+        0.3,
         0.4,
         0.6,
         1.0,
@@ -564,15 +627,15 @@
       },
       {
         "netclass": "Power5V",
-        "pattern": "+5V"
+        "pattern": "+5V*"
       },
       {
         "netclass": "Power15V",
-        "pattern": "+15V"
+        "pattern": "+12V"
       },
       {
         "netclass": "USB",
-        "pattern": "/*/USB_D*"
+        "pattern": "/*/USB_*D*"
       },
       {
         "netclass": "GND",
@@ -589,6 +652,14 @@
       {
         "netclass": "Power15V",
         "pattern": "/Power/VBUS"
+      },
+      {
+        "netclass": "Power15V",
+        "pattern": "/Power/DC_IN"
+      },
+      {
+        "netclass": "Power5V",
+        "pattern": "/Power/MCU_LDO_PWR"
       }
     ]
   },
